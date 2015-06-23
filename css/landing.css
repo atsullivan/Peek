@@ -1,0 +1,72 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background-color: #0099FF;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #0099FF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px;
+}
+
+h1 {
+	padding-top: 20%;
+	padding-bottom: 10%;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 100px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+}
+
+#fade h1, h2, img {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
